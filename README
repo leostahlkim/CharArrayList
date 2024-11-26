@@ -1,0 +1,57 @@
+Author: Leo Kim
+Date: 1/28/22
+Assignment: HW1
+
+Purpose
+    The purpose of this program is the declaration and implementation of the
+    CharArrayList class. The CharArrayList class represents a dynamically
+    allocated array list of char variables. With the member functions I have
+    added, one can perform many different alterations to the CharArrayList,
+    such as additions, concatenations, subtractions and more. The CharArrayList
+    class is now ready for use by anyone in their own sepparate programs.
+
+Acknowledgements
+    Besides looking at the posts on Piazza, I did not seek other outside help 
+    for this homework assignment.
+
+Files Provided
+    CharArrayList.h
+        This is the class declaration for the CharArrayList class which includes
+        all the member functions and variables, but not the implementation.
+    CharArrayList.cpp
+        This is the class implementation for the CharArrayList class which
+        includes the implementation of all the member functions in the 
+        CharArrayList class.
+    unit_tests.h
+        This file includes all the unit testing functions I used to test the
+        implementation of the CharArrayList class.
+
+How to Compile and Run
+    This assignment does not include a written main function to use the 
+    CharArrayList class. You can compile and run these programs by using the
+    unit testing framework provided. To do this, simply type "unit_test" into
+    the command line and the program will compile and run using the Makefile.
+
+Data Structure Used
+    The data structures used in this program are arrays, more specifically
+    dynamically allocated char variable arrays. A major advantage of arrays
+    are that you can easily access any of the elements in an array using their
+    array index. Another advantage to arrays is that space on the heap for them
+    can be declared in one statement, no matter the size of the array. A major
+    disadvantage to arrays are that they have fixed lengths, meaning if you need
+    to add an element to an array that is already at capacity, you have to 
+    create a new, larger array and copy the other array into it. Another 
+    disadvantage to arrays is that it is difficult to add or subtract an
+    element to an array if it is not the last element in the array. If you
+    want to do this, you must then shift all the elements behind this alteration
+    over to ensure their are no holes in the array.
+
+Testing Details and Explanation
+    In order to test my class implementation, I made use of the unit testing
+    framework provided to us. This meant that every time I implemented a new
+    CharArrayList member function, I would write multiple corresponding
+    unit testing functions that would test the member function. I wrote
+    testing functions that would test each member function in a variety of
+    different scenarios involving possible edge cases. I would then run the
+    unit testing code and see which tests passed and failed, then make the
+    neccessary changes.
