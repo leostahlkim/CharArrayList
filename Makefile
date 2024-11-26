@@ -1,6 +1,3 @@
-# Makefile for HW1: ArrayList
-# Matt Russell
-# 
 # This Makefile will build unit_test for the unit_testing 
 # framework.
 

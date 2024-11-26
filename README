@@ -1,6 +1,5 @@
 Author: Leo Kim
 Date: 1/28/22
-Assignment: HW1
 
 Purpose
     The purpose of this program is the declaration and implementation of the
@@ -9,10 +8,6 @@ Purpose
     added, one can perform many different alterations to the CharArrayList,
     such as additions, concatenations, subtractions and more. The CharArrayList
     class is now ready for use by anyone in their own sepparate programs.
-
-Acknowledgements
-    Besides looking at the posts on Piazza, I did not seek other outside help 
-    for this homework assignment.
 
 Files Provided
     CharArrayList.h
